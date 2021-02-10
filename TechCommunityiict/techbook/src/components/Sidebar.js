@@ -11,7 +11,7 @@ import ApartmentIcon from '@material-ui/icons/Apartment';
 import KeyboardIcon from '@material-ui/icons/Keyboard';
 import ExpandMoreoutLined from '@material-ui/icons/ExpandMoreOutlined'
 import { useStateValue } from '../StateProvider'
-
+import {Link} from 'react-router-dom';
 
 const Sidebar=()=>{
 
@@ -20,7 +20,8 @@ const Sidebar=()=>{
         <div className="sidebar">
             
             
-            <SidebarRow Icon={ApartmentIcon} title='Curriculam'/>
+            <Link to ="/Curriculam" style = { {textDecoration: 'none' , color: 'black'}}> <SidebarRow Icon={ApartmentIcon} title='Curriculam'/></Link>
+
             <SidebarRow Icon={PeopleIcon} title='Faculty'/>
             <SidebarRow Icon={ChatIcon} title='Messenger'/>
             <SidebarRow Icon={KeyboardIcon} title='CGPA calculator'/>

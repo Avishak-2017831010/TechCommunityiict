@@ -1,0 +1,48 @@
+
+#profilename{
+    font-size: 40px;
+}
+
+.profilepic{
+    height: 300px;
+    width: 500px;
+}
+
+#name{
+    font-size: 20px;
+    padding: 20px 0px 0px 0px;
+}
+
+#username{
+    color:#2e81f4
+}
+
+#useremail{
+    padding-left: 10px;
+}
+
+#email{
+    padding-top: 10px;
+}
+
+.profilecontainer{
+
+    padding: 30px;
+    display: inline-block;
+
+}
+
+.profiletop{
+    padding: 50px; 
+    overflow: auto;
+    float: left;
+    /* margin-left: 20%; */
+}
+
+.topprofile{
+    width: 500px;
+    height: auto;
+    box-shadow: 2px 4px 2px 4px rgb(161, 155, 155);
+    border-radius: 10px;
+    text-align: center;
+}

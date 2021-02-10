@@ -1,0 +1,86 @@
+.facultymembers{
+    padding: 50px;
+    overflow: auto;
+    float: left;
+    margin-left: 20%;
+   
+}
+
+.teachercontainer{
+    padding: 20px;
+    display: inline-block;
+}
+
+.main-box{
+    width: 300px;
+    height: 400px;
+    box-shadow: 2px 4px 2px 4px #2e81f4;
+    border-radius: 10px;
+    text-align: center;
+    
+    padding-top: 20px;
+     
+    
+}
+
+.big-circle{
+    width: 150px;
+    height: 150px;
+    border: 10px solid #2e81f4;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+}
+.small-circle{
+    width: 140px;
+    height: 140px;
+    border: 10px solid #DAF9F6;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    /* background-image: url("https://i.imgur.com/zwICfAl.jpg"); */
+    background-position: center;
+    background-size: cover;
+}
+
+.small-circle img{
+    width: 140px;
+    height: 140px;
+    border: 5px solid #DAF9F6;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    background-position: center;
+    background-size: cover;
+}
+
+.heading-name{
+ margin: 3px 0;   
+}
+
+.heading-work{
+    color: #2e81f4;
+    font-weight: 300;
+    margin: 3px 0;
+}
+p{
+    padding: 0 20px;
+    margin-bottom: 25px;
+}
+
+.follow_btn{
+    text-decoration: none;
+    background: #2e81f4;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 1px 1px #2e81f4;
+}
+
+.follow_btn:hover{
+    color: #2e81f4;
+    background: #DAF9F6;
+    font-weight: 600;
+}

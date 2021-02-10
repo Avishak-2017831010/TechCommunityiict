@@ -1,0 +1,68 @@
+
+#profilename{
+    font-size: 40px;
+}
+
+.profile_pic{
+    width: 140px;
+    height: 140px;
+    border: 10px solid #DAF9F6;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    /* background-image: url("https://i.imgur.com/zwICfAl.jpg"); */
+    background-position: center;
+    background-size: cover;
+}
+
+.profile_pic img{
+    width: 140px;
+    height: 140px;
+    border: 5px solid #DAF9F6;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    background-position: center;
+    background-size: cover;
+}
+
+#name{
+    font-size: 20px;
+    padding: 20px 0px 0px 0px;
+}
+
+#username{
+    color:#2e81f4
+}
+
+#useremail{
+    padding-left: 10px;
+}
+
+#email{
+    padding-top: 50px;
+}
+
+.profilecontainer{
+    padding: 10px;
+    display: inline-block;
+
+}
+
+.profiletop{
+    /* padding: 50px;  */
+    overflow: auto;
+    float: left;
+    /* margin-left: 20%; */
+}
+
+.topprofile{
+    width: 150px;
+    height: 50px;
+    border: 10px solid #2e81f4;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+}
